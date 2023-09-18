@@ -1,0 +1,21 @@
+.container{
+    display: grid;
+    grid-template-areas: 
+    'one one one one'
+    'two two three three '
+    'two two four five' ;
+    grid-template-rows: 130px 200px 130px ;
+    max-width: 700px;
+    gap: 10px;
+}
+
+.container>section{
+    padding: 30px;
+    border-radius: 10px;
+}
+.one{grid-area: one; background-color: brown;}
+.two{grid-area: two; background-color: blue}
+.three{grid-area: three; background-color: green}
+.four{grid-area: four;background-color: purple}
+.five{grid-area: five; background-color: purple}
+

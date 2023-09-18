@@ -1,0 +1,160 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+   
+    
+}
+.one{
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    border: 1px solid black;
+    position: relative;
+    overflow: hidden;
+}
+
+.two{
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    border: 1px solid black;
+    position: relative;
+    overflow: hidden;
+    
+}
+.three{
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    border: 1px solid black;
+    position: relative;
+    overflow: hidden;
+    
+}
+.four{
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    border: 1px solid black;
+    position: relative;
+    overflow: hidden;
+    
+    
+}
+.five{
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    text-align: center;
+    line-height: 100px;
+    border: 1px solid black;
+    position: relative;
+    transition: 0.5s;   
+    animation-name: example;
+}
+
+.one::after{
+    content: 'cool';
+    text-align: center;
+    line-height: 100px;
+    font-size: larger;
+    position: absolute;
+   width: 100px;
+   height:100px;
+   top: 0;
+   left: 0;
+   transform: translateY(-100px);
+    background-color: red;
+    transition: 1s;   
+
+}
+
+.one:hover::after{
+    transform: translateY(0px);
+}
+
+/*------------------------------------*/
+.two::after{
+    content: '';
+    position: absolute;
+   width: 100px;
+   height:100px;
+   top: 0;
+   left: 0;
+   transform: translateX(-100px);
+    background-color: blue;
+    transition: 1s;   
+    z-index: -1;
+
+}
+
+.two:hover::after{
+    transform: translateX(0px);
+}
+
+.three::after{
+    content: '';
+    position: absolute;
+   width: 100px;
+   height:100px;
+   top: 0px;
+   left: 0;
+   transform: translateX(-100px);
+    background-color:yellow ;
+    transition: 0.5s;   
+    z-index: -1;
+
+}
+
+.three:hover::after{
+    transform:translateX(0) rotate(-90deg);
+}
+
+.four::after{
+    content: 'Scale';
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    position: absolute;
+   width: 100px;
+   height:100px;
+   top: 0px;
+   left: 0;
+   
+    background-color:black ;
+    transition: 0.5s;   
+    z-index: -1;
+    transform: scale(5);
+    opacity: 0;
+
+}
+
+.four:hover::after{
+    transform:scale(1);
+    opacity: 1;
+}
+
+.five::after{
+    content: '';
+    position: absolute;
+   width: 100px;
+   height:100px;
+   top: 0;
+   left: 0;
+    transition: 1s;  
+    z-index: -1; 
+
+}
+
+
+.five:hover{
+    transform: skew(10deg,10deg)
+    
+}
+
+@keyframes example{
+    25%  {background-color: hotpink;
+        transform: skew(0deg,0deg)  ; }
+    
+}
+

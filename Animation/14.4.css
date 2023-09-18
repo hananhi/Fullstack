@@ -1,0 +1,29 @@
+.loader{
+  border: 5px solid #EAF0F6;
+  border-radius: 50%;
+  border-top: 6px solid #FF7A59;
+  width: 50px;
+  height: 50px;
+  animation: spinner 3s linear infinite;
+}
+
+@keyframes spinner{
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.load2{
+    border-radius: 50%;
+    border-top: 3px solid brown;
+    border-right: 3px solid transparent;
+    width: 50px;
+    height: 50px;
+    animation: spinner 2s linear infinite;
+  }
+  
+  @keyframes spinner{
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+  }
+
+   

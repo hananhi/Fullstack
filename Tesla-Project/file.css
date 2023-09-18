@@ -1,0 +1,95 @@
+body{
+    background-color: rgb(48, 47, 47);
+    
+}
+video{
+    width: 100%;
+    position: relative;
+    
+}
+
+.header{
+    background-color:rgb(37, 37, 78);
+    color: white;
+    padding: 13px;
+    width: 100%;
+    background-image: radial-gradient(54.97% 272.54% at 27.36% -134.72%,rgba(108,148,255,.92) 0,rgba(0,0,0,.92) 100%);
+    border-radius: 3px;
+   
+}
+
+.header-a{
+    font-size: x-large;
+    margin-left: 160px;
+}
+.header-b{
+     padding-left: 10px;
+     text-decoration: underline;
+
+}
+.header-c{
+    padding: 10px;
+    margin: 20px;
+}
+.container{
+   
+    color: white;
+    font-size: large;
+   
+
+}
+.container >div{
+    display: inline-block;
+    padding-top: 10px;
+   
+
+}
+.container-a{
+    position: absolute;
+    top: 70px;
+left: 40px;
+}
+.container-b{
+    
+    position :absolute;
+    top: 70px;
+    left: 500px; 
+
+}
+.container-c{
+
+    position: absolute;
+    top:70px;
+    left: 1150px
+
+}
+.container-b >div{
+    display: inline;
+    padding: 15px;
+    
+}
+.container-b >div :hover{
+    
+}
+.container-c >div {
+    display: inline;
+    padding: 8px;
+}
+
+.middle{
+position: absolute;
+color: rgb(255, 255, 255);
+
+            left: 650px;
+            top: 200px;
+            
+}
+.div1{
+    font-size: xx-large;
+}
+.div2{
+    margin-left: 10px;
+}
+.div3{
+    
+}

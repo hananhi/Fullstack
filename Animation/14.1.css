@@ -1,0 +1,27 @@
+.box{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    position: relative;
+   
+}
+
+
+.box::after{
+    content: '';
+    background-color:aqua;
+    position: absolute;
+    width: 1px;
+    height: 200px;
+    transition: 3s;
+
+}
+
+.box:hover{
+    overflow: hidden;
+}
+.box:hover::after{
+    overflow: visible;
+    width: 100%;
+}
+

@@ -1,0 +1,25 @@
+body{
+    background-image: url(https://th.bing.com/th/id/R.bb7d965d17f2c3d120ea5e9a2adaf750?rik=on6CtU5SIhMjhQ&pid=ImgRaw&r=0);
+   
+}
+.table1{
+background-color: hotpink;
+ width: 200px;
+ height: 50px;
+ font-size: larger;
+transform: translate(300px ,300px );
+}
+
+.table2{
+    background-color: yellow;
+    width: 150px;
+    height: 50px;
+    transform: translate(350px, 350px) rotate(25deg) ;
+
+}
+
+.table3{
+    background-color: rgb(38, 235, 38);
+    width: 140px;
+    height: 50px;
+}

@@ -1,0 +1,19 @@
+div{
+    /*padding: 200px;
+    margin-left: 300px;
+    margin-top: 70px;
+    */
+    width: 200px;
+    height: 300px;
+    background-color: red;
+    position: relative;
+}
+
+div::after{
+    content: '';
+    position: absolute;
+    background-color: blueviolet;
+    height: 100%;
+    width: 50%;
+   
+}
